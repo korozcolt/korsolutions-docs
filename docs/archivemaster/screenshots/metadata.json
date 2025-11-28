@@ -1,0 +1,20 @@
+[
+  {
+    "filename": "dashboard.png",
+    "title": "Dashboard",
+    "path": "./screenshots/dashboard.png",
+    "route": "/admin"
+  },
+  {
+    "filename": "files-list.png",
+    "title": "Files List",
+    "path": "./screenshots/files-list.png",
+    "route": "/admin/files"
+  },
+  {
+    "filename": "offices.png",
+    "title": "Offices",
+    "path": "./screenshots/offices.png",
+    "route": "/admin/offices"
+  }
+]

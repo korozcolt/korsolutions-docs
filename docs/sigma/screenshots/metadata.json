@@ -1,0 +1,314 @@
+[
+  {
+    "filename": "home.png",
+    "title": "Home",
+    "path": "./screenshots/home.png",
+    "route": "/"
+  },
+  {
+    "filename": "login.png",
+    "title": "Login",
+    "path": "./screenshots/login.png",
+    "route": "/login"
+  },
+  {
+    "filename": "forgot-password.png",
+    "title": "Forgot Password",
+    "path": "./screenshots/forgot-password.png",
+    "route": "/forgot-password"
+  },
+  {
+    "filename": "two-factor-challenge.png",
+    "title": "Two Factor Challenge",
+    "path": "./screenshots/two-factor-challenge.png",
+    "route": "/two-factor-challenge"
+  },
+  {
+    "filename": "dashboard.png",
+    "title": "Dashboard",
+    "path": "./screenshots/dashboard.png",
+    "route": "/dashboard"
+  },
+  {
+    "filename": "settings.png",
+    "title": "Settings",
+    "path": "./screenshots/settings.png",
+    "route": "/settings"
+  },
+  {
+    "filename": "settings-profile.png",
+    "title": "Settings Profile",
+    "path": "./screenshots/settings-profile.png",
+    "route": "/settings/profile"
+  },
+  {
+    "filename": "settings-password.png",
+    "title": "Settings Password",
+    "path": "./screenshots/settings-password.png",
+    "route": "/settings/password"
+  },
+  {
+    "filename": "settings-appearance.png",
+    "title": "Settings Appearance",
+    "path": "./screenshots/settings-appearance.png",
+    "route": "/settings/appearance"
+  },
+  {
+    "filename": "settings-two-factor.png",
+    "title": "Settings Two Factor",
+    "path": "./screenshots/settings-two-factor.png",
+    "route": "/settings/two-factor"
+  },
+  {
+    "filename": "admin-dashboard.png",
+    "title": "Admin Dashboard",
+    "path": "./screenshots/admin-dashboard.png",
+    "route": "/admin"
+  },
+  {
+    "filename": "admin-login.png",
+    "title": "Admin Login",
+    "path": "./screenshots/admin-login.png",
+    "route": "/admin/login"
+  },
+  {
+    "filename": "admin-voters-list.png",
+    "title": "Admin Voters List",
+    "path": "./screenshots/admin-voters-list.png",
+    "route": "/admin/voters"
+  },
+  {
+    "filename": "admin-voters-create.png",
+    "title": "Admin Voters Create",
+    "path": "./screenshots/admin-voters-create.png",
+    "route": "/admin/voters/create"
+  },
+  {
+    "filename": "admin-campaigns-list.png",
+    "title": "Admin Campaigns List",
+    "path": "./screenshots/admin-campaigns-list.png",
+    "route": "/admin/campaigns"
+  },
+  {
+    "filename": "admin-campaigns-create.png",
+    "title": "Admin Campaigns Create",
+    "path": "./screenshots/admin-campaigns-create.png",
+    "route": "/admin/campaigns/create"
+  },
+  {
+    "filename": "admin-users-list.png",
+    "title": "Admin Users List",
+    "path": "./screenshots/admin-users-list.png",
+    "route": "/admin/users"
+  },
+  {
+    "filename": "admin-users-create.png",
+    "title": "Admin Users Create",
+    "path": "./screenshots/admin-users-create.png",
+    "route": "/admin/users/create"
+  },
+  {
+    "filename": "admin-call-center.png",
+    "title": "Admin Call Center",
+    "path": "./screenshots/admin-call-center.png",
+    "route": "/admin/call-center"
+  },
+  {
+    "filename": "admin-dia-d.png",
+    "title": "Admin Dia D",
+    "path": "./screenshots/admin-dia-d.png",
+    "route": "/admin/dia-d"
+  },
+  {
+    "filename": "admin-manage-election-events.png",
+    "title": "Admin Manage Election Events",
+    "path": "./screenshots/admin-manage-election-events.png",
+    "route": "/admin/manage-election-events"
+  },
+  {
+    "filename": "admin-election-events-list.png",
+    "title": "Admin Election Events List",
+    "path": "./screenshots/admin-election-events-list.png",
+    "route": "/admin/election-events"
+  },
+  {
+    "filename": "admin-election-events-create.png",
+    "title": "Admin Election Events Create",
+    "path": "./screenshots/admin-election-events-create.png",
+    "route": "/admin/election-events/create"
+  },
+  {
+    "filename": "admin-departments-list.png",
+    "title": "Admin Departments List",
+    "path": "./screenshots/admin-departments-list.png",
+    "route": "/admin/departments"
+  },
+  {
+    "filename": "admin-departments-create.png",
+    "title": "Admin Departments Create",
+    "path": "./screenshots/admin-departments-create.png",
+    "route": "/admin/departments/create"
+  },
+  {
+    "filename": "admin-municipalities-list.png",
+    "title": "Admin Municipalities List",
+    "path": "./screenshots/admin-municipalities-list.png",
+    "route": "/admin/municipalities"
+  },
+  {
+    "filename": "admin-municipalities-create.png",
+    "title": "Admin Municipalities Create",
+    "path": "./screenshots/admin-municipalities-create.png",
+    "route": "/admin/municipalities/create"
+  },
+  {
+    "filename": "admin-neighborhoods-list.png",
+    "title": "Admin Neighborhoods List",
+    "path": "./screenshots/admin-neighborhoods-list.png",
+    "route": "/admin/neighborhoods"
+  },
+  {
+    "filename": "admin-neighborhoods-create.png",
+    "title": "Admin Neighborhoods Create",
+    "path": "./screenshots/admin-neighborhoods-create.png",
+    "route": "/admin/neighborhoods/create"
+  },
+  {
+    "filename": "admin-surveys-list.png",
+    "title": "Admin Surveys List",
+    "path": "./screenshots/admin-surveys-list.png",
+    "route": "/admin/surveys"
+  },
+  {
+    "filename": "admin-surveys-create.png",
+    "title": "Admin Surveys Create",
+    "path": "./screenshots/admin-surveys-create.png",
+    "route": "/admin/surveys/create"
+  },
+  {
+    "filename": "admin-messages-list.png",
+    "title": "Admin Messages List",
+    "path": "./screenshots/admin-messages-list.png",
+    "route": "/admin/messages"
+  },
+  {
+    "filename": "admin-messages-create.png",
+    "title": "Admin Messages Create",
+    "path": "./screenshots/admin-messages-create.png",
+    "route": "/admin/messages/create"
+  },
+  {
+    "filename": "admin-message-templates-list.png",
+    "title": "Admin Message Templates List",
+    "path": "./screenshots/admin-message-templates-list.png",
+    "route": "/admin/messages/message-templates"
+  },
+  {
+    "filename": "admin-message-templates-create.png",
+    "title": "Admin Message Templates Create",
+    "path": "./screenshots/admin-message-templates-create.png",
+    "route": "/admin/messages/message-templates/create"
+  },
+  {
+    "filename": "admin-message-batches-list.png",
+    "title": "Admin Message Batches List",
+    "path": "./screenshots/admin-message-batches-list.png",
+    "route": "/admin/messages/message-batches"
+  },
+  {
+    "filename": "admin-message-batches-create.png",
+    "title": "Admin Message Batches Create",
+    "path": "./screenshots/admin-message-batches-create.png",
+    "route": "/admin/messages/message-batches/create"
+  },
+  {
+    "filename": "admin-verification-calls-list.png",
+    "title": "Admin Verification Calls List",
+    "path": "./screenshots/admin-verification-calls-list.png",
+    "route": "/admin/verification-calls"
+  },
+  {
+    "filename": "admin-verification-calls-create.png",
+    "title": "Admin Verification Calls Create",
+    "path": "./screenshots/admin-verification-calls-create.png",
+    "route": "/admin/verification-calls/create"
+  },
+  {
+    "filename": "campaign-admin-dashboard.png",
+    "title": "Campaign Admin Dashboard",
+    "path": "./screenshots/campaign-admin-dashboard.png",
+    "route": "/campaign-admin/dashboard"
+  },
+  {
+    "filename": "coordinator-home.png",
+    "title": "Coordinator Home",
+    "path": "./screenshots/coordinator-home.png",
+    "route": "/coordinator"
+  },
+  {
+    "filename": "coordinator-dashboard.png",
+    "title": "Coordinator Dashboard",
+    "path": "./screenshots/coordinator-dashboard.png",
+    "route": "/coordinator/dashboard"
+  },
+  {
+    "filename": "coordinator-login.png",
+    "title": "Coordinator Login",
+    "path": "./screenshots/coordinator-login.png",
+    "route": "/coordinator/login"
+  },
+  {
+    "filename": "coordinator-dia-d.png",
+    "title": "Coordinator Dia D",
+    "path": "./screenshots/coordinator-dia-d.png",
+    "route": "/coordinator/dia-d"
+  },
+  {
+    "filename": "coordinator-leaders-list.png",
+    "title": "Coordinator Leaders List",
+    "path": "./screenshots/coordinator-leaders-list.png",
+    "route": "/coordinator/leaders"
+  },
+  {
+    "filename": "coordinator-leaders-create.png",
+    "title": "Coordinator Leaders Create",
+    "path": "./screenshots/coordinator-leaders-create.png",
+    "route": "/coordinator/leaders/create"
+  },
+  {
+    "filename": "leader-home.png",
+    "title": "Leader Home",
+    "path": "./screenshots/leader-home.png",
+    "route": "/leader"
+  },
+  {
+    "filename": "leader-dashboard.png",
+    "title": "Leader Dashboard",
+    "path": "./screenshots/leader-dashboard.png",
+    "route": "/leader/dashboard"
+  },
+  {
+    "filename": "leader-login.png",
+    "title": "Leader Login",
+    "path": "./screenshots/leader-login.png",
+    "route": "/leader/login"
+  },
+  {
+    "filename": "leader-dia-d.png",
+    "title": "Leader Dia D",
+    "path": "./screenshots/leader-dia-d.png",
+    "route": "/leader/dia-d"
+  },
+  {
+    "filename": "leader-my-voters.png",
+    "title": "Leader My Voters",
+    "path": "./screenshots/leader-my-voters.png",
+    "route": "/leader/my-voters"
+  },
+  {
+    "filename": "leader-register-voter.png",
+    "title": "Leader Register Voter",
+    "path": "./screenshots/leader-register-voter.png",
+    "route": "/leader/register-voter"
+  }
+]

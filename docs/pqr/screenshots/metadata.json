@@ -1,0 +1,26 @@
+[
+  {
+    "filename": "dashboard.png",
+    "title": "Dashboard",
+    "path": "./screenshots/dashboard.png",
+    "route": "/admin"
+  },
+  {
+    "filename": "tickets-list.png",
+    "title": "Tickets List",
+    "path": "./screenshots/tickets-list.png",
+    "route": "/admin/tickets"
+  },
+  {
+    "filename": "tickets-create.png",
+    "title": "Tickets Create",
+    "path": "./screenshots/tickets-create.png",
+    "route": "/admin/tickets/create"
+  },
+  {
+    "filename": "users-list.png",
+    "title": "Users List",
+    "path": "./screenshots/users-list.png",
+    "route": "/admin/users"
+  }
+]

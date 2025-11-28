@@ -1,0 +1,45 @@
+# Dependencies
+/node_modules
+
+# Production
+/build
+
+# Generated files
+.docusaurus
+.cache-loader
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables (contains GitHub token)
+.env
+
+# Screenshots (demasiado grandes, se regeneran localmente)
+docs/*/screenshots/*.png
+
+# GitHub synced content (se regenera automáticamente)
+docs/*/github/README.md
+docs/*/github/README_CONTENT.mdx
+docs/*/github/CHANGELOG.md
+docs/*/github/CHANGELOG_CONTENT.mdx
+docs/*/github/commits.json
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea
+
+# OS
+Thumbs.db
+

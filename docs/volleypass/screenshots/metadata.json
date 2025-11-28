@@ -1,0 +1,26 @@
+[
+  {
+    "filename": "dashboard.png",
+    "title": "Dashboard",
+    "path": "./screenshots/dashboard.png",
+    "route": "/admin"
+  },
+  {
+    "filename": "players-list.png",
+    "title": "Players List",
+    "path": "./screenshots/players-list.png",
+    "route": "/admin/players"
+  },
+  {
+    "filename": "players-create.png",
+    "title": "Players Create",
+    "path": "./screenshots/players-create.png",
+    "route": "/admin/players/create"
+  },
+  {
+    "filename": "tournaments-list.png",
+    "title": "Tournaments List",
+    "path": "./screenshots/tournaments-list.png",
+    "route": "/admin/tournaments"
+  }
+]
