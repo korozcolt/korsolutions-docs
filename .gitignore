@@ -26,10 +26,8 @@ yarn-error.log*
 docs/*/screenshots/*.png
 
 # GitHub synced content (se regenera automáticamente)
-docs/*/github/README.md
-docs/*/github/README_CONTENT.mdx
-docs/*/github/CHANGELOG.md
-docs/*/github/CHANGELOG_CONTENT.mdx
+# Nota: Los archivos _CONTENT.mdx deben estar en el repo para que el build funcione
+# Se sobrescriben automáticamente con cada sync
 docs/*/github/commits.json
 
 # IDE
