@@ -16,11 +16,16 @@ const octokit = new Octokit({
 });
 
 // Función para escapar caracteres problemáticos en MDX y limpiar links internos
-function escapeMdxCharacters(content: string): string {
+function escapeMdxCharacters(content: string, repoOwner: string, repoName: string): string {
+  const githubBaseUrl = `https://github.com/${repoOwner}/${repoName}`;
+
   return content
     // Eliminar links a archivos .md internos del repo (PROGRESO.md, CLAUDE.md, etc.)
     // Esto evita warnings de "couldn't be resolved"
     .replace(/\[([^\]]+)\]\(([^)]*\.md)\)/g, '**$1**')
+    // Convertir links relativos a LICENSE y VERSION a URLs absolutas de GitHub
+    .replace(/\]\(LICENSE\)/g, `](${githubBaseUrl}/blob/main/LICENSE)`)
+    .replace(/\]\(VERSION\)/g, `](${githubBaseUrl}/blob/main/VERSION)`)
     // Escapar < seguido de número (ej: <500ms -> \<500ms)
     .replace(/<(\d)/g, '\\<$1')
     // Escapar > seguido de número (ej: >500ms -> \>500ms)
@@ -49,15 +54,15 @@ async function syncProject(config: GithubProjectConfig) {
       });
 
       const readmeContent = Buffer.from(readmeResponse.data.content, 'base64').toString('utf-8');
-      
+
       // Guardar como .md (raw markdown)
       fs.writeFileSync(
         path.join(githubDir, 'README.md'),
         readmeContent
       );
-      
+
       // También crear versión .mdx procesada para importar (escapar caracteres problemáticos)
-      const readmeMdx = escapeMdxCharacters(readmeContent);
+      const readmeMdx = escapeMdxCharacters(readmeContent, config.repoOwner, config.repoName);
       fs.writeFileSync(
         path.join(githubDir, 'README_CONTENT.mdx'),
         readmeMdx
@@ -83,15 +88,15 @@ async function syncProject(config: GithubProjectConfig) {
 
       if ('content' in changelogResponse.data) {
         const changelogContent = Buffer.from(changelogResponse.data.content, 'base64').toString('utf-8');
-        
+
         // Guardar como .md (raw markdown)
         fs.writeFileSync(
           path.join(githubDir, 'CHANGELOG.md'),
           changelogContent
         );
-        
+
         // También crear versión .mdx procesada para importar (escapar caracteres problemáticos)
-        const changelogMdx = escapeMdxCharacters(changelogContent);
+        const changelogMdx = escapeMdxCharacters(changelogContent, config.repoOwner, config.repoName);
         fs.writeFileSync(
           path.join(githubDir, 'CHANGELOG_CONTENT.mdx'),
           changelogMdx
