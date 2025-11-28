@@ -1,6 +1,13 @@
 # KorSolutions Docs Platform
 
+[![GitHub](https://img.shields.io/badge/GitHub-korozcolt%2Fkorsolutions--docs-blue?logo=github)](https://github.com/korozcolt/korsolutions-docs)
+[![Node](https://img.shields.io/badge/Node-%3E%3D20.0-brightgreen?logo=node.js)](https://nodejs.org/)
+[![Docusaurus](https://img.shields.io/badge/Docusaurus-3.9.2-green?logo=docusaurus)](https://docusaurus.io/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.6.2-blue?logo=typescript)](https://www.typescriptlang.org/)
+
 Plataforma de documentación centralizada para proyectos de KorSolutions usando Docusaurus.
+
+**🔗 Repositorio:** https://github.com/korozcolt/korsolutions-docs
 
 ## 🚀 Características
 
@@ -15,6 +22,15 @@ Plataforma de documentación centralizada para proyectos de KorSolutions usando 
 2. **Sistema PQRSD** - Gestión de Peticiones, Quejas, Reclamos
 3. **ArchiveMaster** - Sistema de Gestión Documental
 4. **VolleyPass** - Sistema de Gestión de Torneos de Voleibol
+
+## 📥 Instalación
+
+### Clonar el repositorio
+
+```bash
+git clone https://github.com/korozcolt/korsolutions-docs.git
+cd korsolutions-docs
+```
 
 ## ⚙️ Configuración Inicial
 
@@ -83,6 +99,85 @@ npm run capture volleypass     # Captura screenshots de VolleyPass
 ```
 
 Las capturas se guardan en: `docs/[proyecto]/screenshots/`
+
+## 🚀 Deployment
+
+### GitHub Pages
+
+Para desplegar automáticamente a GitHub Pages:
+
+1. **Configurar GitHub Pages en el repositorio:**
+   - Ve a Settings → Pages
+   - Source: GitHub Actions
+
+2. **Crear workflow de despliegue:**
+
+   El proyecto incluye soporte para GitHub Actions. Crea `.github/workflows/deploy.yml`:
+
+   ```yaml
+   name: Deploy to GitHub Pages
+
+   on:
+     push:
+       branches:
+         - master
+     workflow_dispatch:
+
+   permissions:
+     contents: read
+     pages: write
+     id-token: write
+
+   concurrency:
+     group: "pages"
+     cancel-in-progress: false
+
+   jobs:
+     build:
+       runs-on: ubuntu-latest
+       steps:
+         - uses: actions/checkout@v4
+         - uses: actions/setup-node@v4
+           with:
+             node-version: 20
+             cache: npm
+         - name: Install dependencies
+           run: npm ci
+         - name: Build website
+           run: npm run build
+         - name: Upload artifact
+           uses: actions/upload-pages-artifact@v3
+           with:
+             path: ./build
+
+     deploy:
+       needs: build
+       runs-on: ubuntu-latest
+       environment:
+         name: github-pages
+         url: ${{ steps.deployment.outputs.page_url }}
+       steps:
+         - name: Deploy to GitHub Pages
+           id: deployment
+           uses: actions/deploy-pages@v4
+   ```
+
+3. **Configurar URL base en `docusaurus.config.ts`:**
+
+   Asegúrate de que la configuración incluya:
+   ```typescript
+   url: 'https://korozcolt.github.io',
+   baseUrl: '/korsolutions-docs/',
+   ```
+
+4. **Hacer push y verificar:**
+   ```bash
+   git add .
+   git commit -m "Configure GitHub Pages deployment"
+   git push origin master
+   ```
+
+   El sitio estará disponible en: **https://korozcolt.github.io/korsolutions-docs/**
 
 ## 🤖 Automatización
 
@@ -153,7 +248,26 @@ korsolutions-docs/
 - Los screenshots se nombran según el array `capture` en cada config
 - README/CHANGELOG se envuelven en bloques de código para evitar errores MDX
 
+## 🔗 Enlaces Útiles
+
+- **Repositorio:** https://github.com/korozcolt/korsolutions-docs
+- **Documentación (en desarrollo):** https://korozcolt.github.io/korsolutions-docs/
+- **Issues:** https://github.com/korozcolt/korsolutions-docs/issues
+- **Docusaurus:** https://docusaurus.io/
+
+## 🤝 Contribuir
+
+Las contribuciones son bienvenidas. Por favor:
+
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
 ## 📄 Licencia
 
-Proyecto privado - KorSolutions
+Proyecto privado - KorSolutions © 2025
+
+**Autor:** [@korozcolt](https://github.com/korozcolt)
 
