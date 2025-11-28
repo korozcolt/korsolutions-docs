@@ -22,8 +22,9 @@ yarn-error.log*
 # Environment variables (contains GitHub token)
 .env
 
-# Screenshots (demasiado grandes, se regeneran localmente)
-docs/*/screenshots/*.png
+# Screenshots - Incluidas en el repo porque los proyectos son locales
+# y no se pueden capturar desde el servidor
+# docs/*/screenshots/*.png
 
 # GitHub synced content (se regenera automáticamente)
 # Nota: Los archivos _CONTENT.mdx deben estar en el repo para que el build funcione
