@@ -42,6 +42,7 @@ const sidebars: SidebarsConfig = {
     },
     "items": [
         "archivemaster/readme",
+        "archivemaster/changelog",
         "archivemaster/manual"
     ]
 },
@@ -54,6 +55,7 @@ const sidebars: SidebarsConfig = {
     },
     "items": [
         "volleypass/readme",
+        "volleypass/changelog",
         "volleypass/manual"
     ]
 }

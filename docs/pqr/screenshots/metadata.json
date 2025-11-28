@@ -1,26 +1,152 @@
 [
   {
-    "filename": "dashboard.png",
-    "title": "Dashboard",
-    "path": "./screenshots/dashboard.png",
+    "filename": "home.png",
+    "title": "Home",
+    "path": "./screenshots/home.png",
+    "route": "/"
+  },
+  {
+    "filename": "login.png",
+    "title": "Login",
+    "path": "./screenshots/login.png",
+    "route": "/login"
+  },
+  {
+    "filename": "register.png",
+    "title": "Register",
+    "path": "./screenshots/register.png",
+    "route": "/register"
+  },
+  {
+    "filename": "forgot-password.png",
+    "title": "Forgot Password",
+    "path": "./screenshots/forgot-password.png",
+    "route": "/forgot-password"
+  },
+  {
+    "filename": "two-factor-challenge.png",
+    "title": "Two Factor Challenge",
+    "path": "./screenshots/two-factor-challenge.png",
+    "route": "/two-factor-challenge"
+  },
+  {
+    "filename": "confirm-password.png",
+    "title": "Confirm Password",
+    "path": "./screenshots/confirm-password.png",
+    "route": "/confirm-password"
+  },
+  {
+    "filename": "verify-email.png",
+    "title": "Verify Email",
+    "path": "./screenshots/verify-email.png",
+    "route": "/verify-email"
+  },
+  {
+    "filename": "support.png",
+    "title": "Support",
+    "path": "./screenshots/support.png",
+    "route": "/support"
+  },
+  {
+    "filename": "tracking.png",
+    "title": "Tracking",
+    "path": "./screenshots/tracking.png",
+    "route": "/tracking"
+  },
+  {
+    "filename": "admin-dashboard.png",
+    "title": "Admin Dashboard",
+    "path": "./screenshots/admin-dashboard.png",
     "route": "/admin"
   },
   {
-    "filename": "tickets-list.png",
-    "title": "Tickets List",
-    "path": "./screenshots/tickets-list.png",
+    "filename": "admin-login.png",
+    "title": "Admin Login",
+    "path": "./screenshots/admin-login.png",
+    "route": "/admin/login"
+  },
+  {
+    "filename": "admin-tickets-list.png",
+    "title": "Admin Tickets List",
+    "path": "./screenshots/admin-tickets-list.png",
     "route": "/admin/tickets"
   },
   {
-    "filename": "tickets-create.png",
-    "title": "Tickets Create",
-    "path": "./screenshots/tickets-create.png",
+    "filename": "admin-tickets-create.png",
+    "title": "Admin Tickets Create",
+    "path": "./screenshots/admin-tickets-create.png",
     "route": "/admin/tickets/create"
   },
   {
-    "filename": "users-list.png",
-    "title": "Users List",
-    "path": "./screenshots/users-list.png",
+    "filename": "admin-users-list.png",
+    "title": "Admin Users List",
+    "path": "./screenshots/admin-users-list.png",
     "route": "/admin/users"
+  },
+  {
+    "filename": "admin-users-create.png",
+    "title": "Admin Users Create",
+    "path": "./screenshots/admin-users-create.png",
+    "route": "/admin/users/create"
+  },
+  {
+    "filename": "admin-departments-list.png",
+    "title": "Admin Departments List",
+    "path": "./screenshots/admin-departments-list.png",
+    "route": "/admin/departments"
+  },
+  {
+    "filename": "admin-departments-create.png",
+    "title": "Admin Departments Create",
+    "path": "./screenshots/admin-departments-create.png",
+    "route": "/admin/departments/create"
+  },
+  {
+    "filename": "admin-slas-list.png",
+    "title": "Admin Slas List",
+    "path": "./screenshots/admin-slas-list.png",
+    "route": "/admin/s-l-a-s"
+  },
+  {
+    "filename": "admin-slas-create.png",
+    "title": "Admin Slas Create",
+    "path": "./screenshots/admin-slas-create.png",
+    "route": "/admin/s-l-a-s/create"
+  },
+  {
+    "filename": "admin-tags-list.png",
+    "title": "Admin Tags List",
+    "path": "./screenshots/admin-tags-list.png",
+    "route": "/admin/tags"
+  },
+  {
+    "filename": "admin-tags-create.png",
+    "title": "Admin Tags Create",
+    "path": "./screenshots/admin-tags-create.png",
+    "route": "/admin/tags/create"
+  },
+  {
+    "filename": "admin-reminders-list.png",
+    "title": "Admin Reminders List",
+    "path": "./screenshots/admin-reminders-list.png",
+    "route": "/admin/reminders"
+  },
+  {
+    "filename": "admin-reminders-create.png",
+    "title": "Admin Reminders Create",
+    "path": "./screenshots/admin-reminders-create.png",
+    "route": "/admin/reminders/create"
+  },
+  {
+    "filename": "log-viewer.png",
+    "title": "Log Viewer",
+    "path": "./screenshots/log-viewer.png",
+    "route": "/log-viewer"
+  },
+  {
+    "filename": "publish-log-viewer.png",
+    "title": "Publish Log Viewer",
+    "path": "./screenshots/publish-log-viewer.png",
+    "route": "/publish-log-viewer"
   }
 ]

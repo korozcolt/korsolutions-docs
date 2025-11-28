@@ -3,33 +3,36 @@ sidebar_position: 10
 title: Manual de Función
 ---
 
-# 📖 Manual de Función - ArchiveMaster
+# 📖 Manual de Función - ARCHIVEMASTER
 
-Este manual contiene las capturas de pantalla de las principales funcionalidades del sistema de gestión documental.
+Este manual contiene las capturas de pantalla de todas las funcionalidades del sistema.
+
+:::info Actualización Automática
+Ejecuta `npm run capture archivemaster` para regenerar todas las capturas automáticamente desde la aplicación en vivo.
+Las capturas se generan usando Playwright conectándose a https://archive-master-app.test
+:::
 
 ## 🖼️ Capturas del Sistema
 
-### Dashboard
 
-![Dashboard](./screenshots/dashboard.png)
+### Home
 
-### Lista de Archivos
+#### Welcome
 
-![Files List](./screenshots/files-list.png)
+![Welcome](./screenshots/welcome.png)
 
-### Oficinas
+**Ruta:** `/`
 
-![Offices](./screenshots/offices.png)
+---
 
-:::info Actualizar Manual
-Ejecuta `npm run capture archivemaster` para generar nuevas capturas automáticamente desde la aplicación en vivo.
 
-El sistema capturará automáticamente:
-- Dashboard principal
-- Módulo de archivos
-- Módulo de oficinas
-:::
+### Admin
 
-## 📝 Notas de Uso
+#### Admin Login
 
-Las capturas se generan automáticamente usando Playwright, conectándose a la aplicación en vivo y navegando por las rutas configuradas.
+![Admin Login](./screenshots/admin-login.png)
+
+**Ruta:** `/admin/login`
+
+---
+

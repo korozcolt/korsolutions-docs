@@ -1,0 +1,145 @@
+# Changelog
+
+Todos los cambios notables de este proyecto serán documentados en este archivo.
+
+El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/),
+y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
+
+## [Unreleased]
+
+### Agregado
+- Sistema de documentación para Docusaurus
+- Archivo CHANGELOG.md para seguimiento de versiones
+- Archivo docusaurus.json con rutas funcionales
+
+## [1.5.0] - 2025-11-02
+
+### Agregado
+- Tests de automatización y sistema de versionamiento
+- Actualización de PHP a versión 8.4.14 en guías Laravel Boost
+- Configuración de entorno mejorada en mcp.json
+
+### Cambiado
+- Refactor de categorías de jugadores usando formato sub
+- Actualización de tests relacionados con categorías
+
+## [1.4.0] - 2025-08-30
+
+### Agregado
+- Mejoras en el manejo y visualización de fotos de jugadores
+- Actualización de imagen Docker a PHP 8.4 para mejor rendimiento
+
+### Cambiado
+- Refactorización de importaciones innecesarias en CreatePlayer.php
+- Mejoras en el sistema de manejo de fotos
+
+## [1.3.0] - 2025-08-28
+
+### Agregado
+- Campos de información médica en recurso de jugadores
+- Sistema de gestión de contraseñas temporales
+- Notificaciones para jugadores
+- Tipo de notificación para cambio de contraseña
+
+### Corregido
+- Asignación del campo 'name' en UserObserver usando setAttribute
+- Eliminación de línea de timeout en configuración de permisos
+
+### Cambiado
+- Estandarización de nombres de campos en modelos y recursos
+- Mejoras en validaciones
+- Optimización de filtros en recursos
+
+## [1.2.0] - 2025-08-26
+
+### Agregado
+- Campo slug a clubes con validación única
+- Actualización de campos de federación en tabla clubs
+- Implementación de sistema de contraseñas temporales
+
+### Eliminado
+- Documentación obsoleta de API endpoints
+- Guía de migración de categorías de jugadores
+- Guías de torneo obsoletas
+- Ejemplos de cURL y documentación API de Postman
+
+### Cambiado
+- Estandarización de nombres de campos en club_directivos
+- Mejoras en implementación de enums
+
+## [1.1.0] - 2025-08-25
+
+### Agregado
+- Campo 'slug' a tabla leagues con generación automática
+- Mejoras en generación y formato del nombre corto en LeagueResource
+
+### Cambiado
+- Seeders de prueba y configuraciones específicas comentados en DatabaseSeeder
+- Mejora en manejo de errores en método SystemConfiguration::get
+
+### Eliminado
+- Migraciones obsoletas de club_league
+
+## [1.0.0] - 2025-08-19
+
+### Agregado
+- Sistema integral de gestión para ligas de voleibol
+- Panel administrativo con Filament 3.x
+- Sistema de carnetización digital con QR
+- API de verificación en tiempo real
+- Sistema de gestión de torneos
+- Control de acceso basado en roles
+- 15+ recursos administrativos
+- 25+ servicios especializados
+- 19 comandos personalizados
+- Sistema de pagos completo
+- Relación many-to-many entre clubes y ligas
+- Widgets basados en roles
+- Mensaje de bienvenida personalizado
+- Sistema de verificación de pagos de jugadores
+- Servicio SMS con API v5
+
+### Cambiado
+- Reemplazo de consultas DB raw con modelos Eloquent
+- Actualización de migraciones club_league
+- Implementación de dashboard basado en roles
+
+### Características Principales
+- Sistema dual: equipos federados y descentralizados
+- Configuraciones dinámicas por liga (30+ opciones)
+- Gestión completa de categorías
+- Sistema de traspasos con aprobación
+- Certificados médicos con validación
+- Notificaciones inteligentes multi-canal
+- Cache inteligente para performance
+- Auditoría completa del sistema
+
+## [0.9.0] - 2025-08-17
+
+### Agregado
+- Relación many-to-many entre clubes y ligas
+- Widgets de dashboard específicos por rol
+- Sistema de multi-liga para clubes
+
+---
+
+## Tipos de Cambios
+
+- `Agregado` para nuevas características
+- `Cambiado` para cambios en funcionalidades existentes
+- `Obsoleto` para características que serán eliminadas próximamente
+- `Eliminado` para características eliminadas
+- `Corregido` para corrección de bugs
+- `Seguridad` para vulnerabilidades de seguridad
+
+## Versionamiento
+
+Este proyecto usa [Semantic Versioning](https://semver.org/lang/es/):
+
+- **MAJOR** version para cambios incompatibles con la API
+- **MINOR** version para nuevas funcionalidades compatibles hacia atrás
+- **PATCH** version para correcciones de bugs compatibles hacia atrás
+
+---
+
+Para más información sobre el proyecto, consulta el [README.md](README.md).

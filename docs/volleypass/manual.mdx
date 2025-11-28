@@ -3,37 +3,368 @@ sidebar_position: 10
 title: Manual de Función
 ---
 
-# 📖 Manual de Función - VolleyPass
+# 📖 Manual de Función - VOLLEYPASS
 
-Este manual contiene las capturas de pantalla de las principales funcionalidades del sistema de gestión de voleibol.
+Este manual contiene las capturas de pantalla de todas las funcionalidades del sistema.
+
+:::info Actualización Automática
+Ejecuta `npm run capture volleypass` para regenerar todas las capturas automáticamente desde la aplicación en vivo.
+Las capturas se generan usando Playwright conectándose a https://volleypass-new.test
+:::
 
 ## 🖼️ Capturas del Sistema
 
-### Dashboard
 
-![Dashboard](./screenshots/dashboard.png)
+### Home
 
-### Lista de Jugadores
+#### Home
 
-![Players List](./screenshots/players-list.png)
+![Home](./screenshots/home.png)
 
-### Crear Jugador
+**Ruta:** `/`
 
-![Players Create](./screenshots/players-create.png)
+---
 
-### Lista de Torneos
 
-![Tournaments List](./screenshots/tournaments-list.png)
+### Contacto
 
-:::info Actualizar Manual
-Ejecuta `npm run capture volleypass` para generar nuevas capturas automáticamente desde la aplicación en vivo.
+#### Contact
 
-El sistema capturará automáticamente:
-- Dashboard principal
-- Módulo de jugadores (lista y creación)
-- Módulo de torneos
-:::
+![Contact](./screenshots/contact.png)
 
-## 📝 Notas de Uso
+**Ruta:** `/contacto`
 
-Las capturas se generan automáticamente usando Playwright, conectándose a la aplicación en vivo y navegando por las rutas configuradas.
+---
+
+
+### Admin
+
+#### Admin Home
+
+![Admin Home](./screenshots/admin-home.png)
+
+**Ruta:** `/admin`
+
+---
+
+#### Admin Login
+
+![Admin Login](./screenshots/admin-login.png)
+
+**Ruta:** `/admin/login`
+
+---
+
+#### Admin Password Change
+
+![Admin Password Change](./screenshots/admin-password-change.png)
+
+**Ruta:** `/admin/auth/password-change`
+
+---
+
+#### Admin Dashboard
+
+![Admin Dashboard](./screenshots/admin-dashboard.png)
+
+**Ruta:** `/admin/dashboard`
+
+---
+
+#### Admin Clubs Index
+
+![Admin Clubs Index](./screenshots/admin-clubs-index.png)
+
+**Ruta:** `/admin/clubs`
+
+---
+
+#### Admin Clubs Create
+
+![Admin Clubs Create](./screenshots/admin-clubs-create.png)
+
+**Ruta:** `/admin/clubs/create`
+
+---
+
+#### Admin Coaches Index
+
+![Admin Coaches Index](./screenshots/admin-coaches-index.png)
+
+**Ruta:** `/admin/coaches`
+
+---
+
+#### Admin Coaches Create
+
+![Admin Coaches Create](./screenshots/admin-coaches-create.png)
+
+**Ruta:** `/admin/coaches/create`
+
+---
+
+#### Admin Leagues Index
+
+![Admin Leagues Index](./screenshots/admin-leagues-index.png)
+
+**Ruta:** `/admin/leagues`
+
+---
+
+#### Admin Leagues Create
+
+![Admin Leagues Create](./screenshots/admin-leagues-create.png)
+
+**Ruta:** `/admin/leagues/create`
+
+---
+
+#### Admin Matches Index
+
+![Admin Matches Index](./screenshots/admin-matches-index.png)
+
+**Ruta:** `/admin/matches`
+
+---
+
+#### Admin Matches Create
+
+![Admin Matches Create](./screenshots/admin-matches-create.png)
+
+**Ruta:** `/admin/matches/create`
+
+---
+
+#### Admin Medical Certificates Index
+
+![Admin Medical Certificates Index](./screenshots/admin-medical-certificates-index.png)
+
+**Ruta:** `/admin/medical-certificates`
+
+---
+
+#### Admin Medical Certificates Create
+
+![Admin Medical Certificates Create](./screenshots/admin-medical-certificates-create.png)
+
+**Ruta:** `/admin/medical-certificates/create`
+
+---
+
+#### Admin Notifications Index
+
+![Admin Notifications Index](./screenshots/admin-notifications-index.png)
+
+**Ruta:** `/admin/notifications`
+
+---
+
+#### Admin Notifications Create
+
+![Admin Notifications Create](./screenshots/admin-notifications-create.png)
+
+**Ruta:** `/admin/notifications/create`
+
+---
+
+#### Admin Payments Index
+
+![Admin Payments Index](./screenshots/admin-payments-index.png)
+
+**Ruta:** `/admin/payments`
+
+---
+
+#### Admin Payments Create
+
+![Admin Payments Create](./screenshots/admin-payments-create.png)
+
+**Ruta:** `/admin/payments/create`
+
+---
+
+#### Admin Player Cards Index
+
+![Admin Player Cards Index](./screenshots/admin-player-cards-index.png)
+
+**Ruta:** `/admin/player-cards`
+
+---
+
+#### Admin Player Cards Create
+
+![Admin Player Cards Create](./screenshots/admin-player-cards-create.png)
+
+**Ruta:** `/admin/player-cards/create`
+
+---
+
+#### Admin Players Index
+
+![Admin Players Index](./screenshots/admin-players-index.png)
+
+**Ruta:** `/admin/players`
+
+---
+
+#### Admin Players Create
+
+![Admin Players Create](./screenshots/admin-players-create.png)
+
+**Ruta:** `/admin/players/create`
+
+---
+
+#### Admin Referees Index
+
+![Admin Referees Index](./screenshots/admin-referees-index.png)
+
+**Ruta:** `/admin/referees`
+
+---
+
+#### Admin Referees Create
+
+![Admin Referees Create](./screenshots/admin-referees-create.png)
+
+**Ruta:** `/admin/referees/create`
+
+---
+
+#### Admin Roles Index
+
+![Admin Roles Index](./screenshots/admin-roles-index.png)
+
+**Ruta:** `/admin/roles`
+
+---
+
+#### Admin Roles Create
+
+![Admin Roles Create](./screenshots/admin-roles-create.png)
+
+**Ruta:** `/admin/roles/create`
+
+---
+
+#### Admin System Configurations Index
+
+![Admin System Configurations Index](./screenshots/admin-system-configurations-index.png)
+
+**Ruta:** `/admin/system-configurations`
+
+---
+
+#### Admin System Configurations Create
+
+![Admin System Configurations Create](./screenshots/admin-system-configurations-create.png)
+
+**Ruta:** `/admin/system-configurations/create`
+
+---
+
+#### Admin Teams Index
+
+![Admin Teams Index](./screenshots/admin-teams-index.png)
+
+**Ruta:** `/admin/teams`
+
+---
+
+#### Admin Teams Create
+
+![Admin Teams Create](./screenshots/admin-teams-create.png)
+
+**Ruta:** `/admin/teams/create`
+
+---
+
+#### Admin Teams Departmental Selections
+
+![Admin Teams Departmental Selections](./screenshots/admin-teams-departmental-selections.png)
+
+**Ruta:** `/admin/teams/departmental-selections`
+
+---
+
+#### Admin Tournaments Index
+
+![Admin Tournaments Index](./screenshots/admin-tournaments-index.png)
+
+**Ruta:** `/admin/tournaments`
+
+---
+
+#### Admin Tournaments Create
+
+![Admin Tournaments Create](./screenshots/admin-tournaments-create.png)
+
+**Ruta:** `/admin/tournaments/create`
+
+---
+
+#### Admin Transfers Index
+
+![Admin Transfers Index](./screenshots/admin-transfers-index.png)
+
+**Ruta:** `/admin/transfers`
+
+---
+
+#### Admin Transfers Create
+
+![Admin Transfers Create](./screenshots/admin-transfers-create.png)
+
+**Ruta:** `/admin/transfers/create`
+
+---
+
+#### Admin Users Index
+
+![Admin Users Index](./screenshots/admin-users-index.png)
+
+**Ruta:** `/admin/usuarios`
+
+---
+
+#### Admin Users Create
+
+![Admin Users Create](./screenshots/admin-users-create.png)
+
+**Ruta:** `/admin/usuarios/create`
+
+---
+
+
+### Setup
+
+#### Setup Wizard
+
+![Setup Wizard](./screenshots/setup-wizard.png)
+
+**Ruta:** `/setup/wizard`
+
+---
+
+
+### Docs
+
+#### Api Documentation
+
+![Api Documentation](./screenshots/api-documentation.png)
+
+**Ruta:** `/docs`
+
+---
+
+
+### Api
+
+#### Api Swagger Docs
+
+![Api Swagger Docs](./screenshots/api-swagger-docs.png)
+
+**Ruta:** `/api/documentation`
+
+---
+

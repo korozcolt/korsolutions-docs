@@ -7,7 +7,9 @@
       "Bash(gh auth:*)",
       "Bash(gh repo create:*)",
       "Bash(git commit -m \"$(cat <<''EOF''\ndocs: Update README and configure GitHub Pages deployment\n\n- Add repository badges and links\n- Add installation and cloning instructions\n- Add comprehensive deployment section for GitHub Pages\n- Add contribution guidelines\n- Configure Docusaurus for GitHub Pages deployment\n- Add GitHub Actions workflow for automatic deployment\n- Update organization and project URLs\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(git commit:*)",
+      "Bash(git reset:*)"
     ],
     "deny": [],
     "ask": []

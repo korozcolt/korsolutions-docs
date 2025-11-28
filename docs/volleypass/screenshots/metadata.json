@@ -1,26 +1,254 @@
 [
   {
-    "filename": "dashboard.png",
-    "title": "Dashboard",
-    "path": "./screenshots/dashboard.png",
+    "filename": "home.png",
+    "title": "Home",
+    "path": "./screenshots/home.png",
+    "route": "/"
+  },
+  {
+    "filename": "contact.png",
+    "title": "Contact",
+    "path": "./screenshots/contact.png",
+    "route": "/contacto"
+  },
+  {
+    "filename": "admin-home.png",
+    "title": "Admin Home",
+    "path": "./screenshots/admin-home.png",
     "route": "/admin"
   },
   {
-    "filename": "players-list.png",
-    "title": "Players List",
-    "path": "./screenshots/players-list.png",
+    "filename": "admin-login.png",
+    "title": "Admin Login",
+    "path": "./screenshots/admin-login.png",
+    "route": "/admin/login"
+  },
+  {
+    "filename": "admin-password-change.png",
+    "title": "Admin Password Change",
+    "path": "./screenshots/admin-password-change.png",
+    "route": "/admin/auth/password-change"
+  },
+  {
+    "filename": "admin-dashboard.png",
+    "title": "Admin Dashboard",
+    "path": "./screenshots/admin-dashboard.png",
+    "route": "/admin/dashboard"
+  },
+  {
+    "filename": "admin-clubs-index.png",
+    "title": "Admin Clubs Index",
+    "path": "./screenshots/admin-clubs-index.png",
+    "route": "/admin/clubs"
+  },
+  {
+    "filename": "admin-clubs-create.png",
+    "title": "Admin Clubs Create",
+    "path": "./screenshots/admin-clubs-create.png",
+    "route": "/admin/clubs/create"
+  },
+  {
+    "filename": "admin-coaches-index.png",
+    "title": "Admin Coaches Index",
+    "path": "./screenshots/admin-coaches-index.png",
+    "route": "/admin/coaches"
+  },
+  {
+    "filename": "admin-coaches-create.png",
+    "title": "Admin Coaches Create",
+    "path": "./screenshots/admin-coaches-create.png",
+    "route": "/admin/coaches/create"
+  },
+  {
+    "filename": "admin-leagues-index.png",
+    "title": "Admin Leagues Index",
+    "path": "./screenshots/admin-leagues-index.png",
+    "route": "/admin/leagues"
+  },
+  {
+    "filename": "admin-leagues-create.png",
+    "title": "Admin Leagues Create",
+    "path": "./screenshots/admin-leagues-create.png",
+    "route": "/admin/leagues/create"
+  },
+  {
+    "filename": "admin-matches-index.png",
+    "title": "Admin Matches Index",
+    "path": "./screenshots/admin-matches-index.png",
+    "route": "/admin/matches"
+  },
+  {
+    "filename": "admin-matches-create.png",
+    "title": "Admin Matches Create",
+    "path": "./screenshots/admin-matches-create.png",
+    "route": "/admin/matches/create"
+  },
+  {
+    "filename": "admin-medical-certificates-index.png",
+    "title": "Admin Medical Certificates Index",
+    "path": "./screenshots/admin-medical-certificates-index.png",
+    "route": "/admin/medical-certificates"
+  },
+  {
+    "filename": "admin-medical-certificates-create.png",
+    "title": "Admin Medical Certificates Create",
+    "path": "./screenshots/admin-medical-certificates-create.png",
+    "route": "/admin/medical-certificates/create"
+  },
+  {
+    "filename": "admin-notifications-index.png",
+    "title": "Admin Notifications Index",
+    "path": "./screenshots/admin-notifications-index.png",
+    "route": "/admin/notifications"
+  },
+  {
+    "filename": "admin-notifications-create.png",
+    "title": "Admin Notifications Create",
+    "path": "./screenshots/admin-notifications-create.png",
+    "route": "/admin/notifications/create"
+  },
+  {
+    "filename": "admin-payments-index.png",
+    "title": "Admin Payments Index",
+    "path": "./screenshots/admin-payments-index.png",
+    "route": "/admin/payments"
+  },
+  {
+    "filename": "admin-payments-create.png",
+    "title": "Admin Payments Create",
+    "path": "./screenshots/admin-payments-create.png",
+    "route": "/admin/payments/create"
+  },
+  {
+    "filename": "admin-player-cards-index.png",
+    "title": "Admin Player Cards Index",
+    "path": "./screenshots/admin-player-cards-index.png",
+    "route": "/admin/player-cards"
+  },
+  {
+    "filename": "admin-player-cards-create.png",
+    "title": "Admin Player Cards Create",
+    "path": "./screenshots/admin-player-cards-create.png",
+    "route": "/admin/player-cards/create"
+  },
+  {
+    "filename": "admin-players-index.png",
+    "title": "Admin Players Index",
+    "path": "./screenshots/admin-players-index.png",
     "route": "/admin/players"
   },
   {
-    "filename": "players-create.png",
-    "title": "Players Create",
-    "path": "./screenshots/players-create.png",
+    "filename": "admin-players-create.png",
+    "title": "Admin Players Create",
+    "path": "./screenshots/admin-players-create.png",
     "route": "/admin/players/create"
   },
   {
-    "filename": "tournaments-list.png",
-    "title": "Tournaments List",
-    "path": "./screenshots/tournaments-list.png",
+    "filename": "admin-referees-index.png",
+    "title": "Admin Referees Index",
+    "path": "./screenshots/admin-referees-index.png",
+    "route": "/admin/referees"
+  },
+  {
+    "filename": "admin-referees-create.png",
+    "title": "Admin Referees Create",
+    "path": "./screenshots/admin-referees-create.png",
+    "route": "/admin/referees/create"
+  },
+  {
+    "filename": "admin-roles-index.png",
+    "title": "Admin Roles Index",
+    "path": "./screenshots/admin-roles-index.png",
+    "route": "/admin/roles"
+  },
+  {
+    "filename": "admin-roles-create.png",
+    "title": "Admin Roles Create",
+    "path": "./screenshots/admin-roles-create.png",
+    "route": "/admin/roles/create"
+  },
+  {
+    "filename": "admin-system-configurations-index.png",
+    "title": "Admin System Configurations Index",
+    "path": "./screenshots/admin-system-configurations-index.png",
+    "route": "/admin/system-configurations"
+  },
+  {
+    "filename": "admin-system-configurations-create.png",
+    "title": "Admin System Configurations Create",
+    "path": "./screenshots/admin-system-configurations-create.png",
+    "route": "/admin/system-configurations/create"
+  },
+  {
+    "filename": "admin-teams-index.png",
+    "title": "Admin Teams Index",
+    "path": "./screenshots/admin-teams-index.png",
+    "route": "/admin/teams"
+  },
+  {
+    "filename": "admin-teams-create.png",
+    "title": "Admin Teams Create",
+    "path": "./screenshots/admin-teams-create.png",
+    "route": "/admin/teams/create"
+  },
+  {
+    "filename": "admin-teams-departmental-selections.png",
+    "title": "Admin Teams Departmental Selections",
+    "path": "./screenshots/admin-teams-departmental-selections.png",
+    "route": "/admin/teams/departmental-selections"
+  },
+  {
+    "filename": "admin-tournaments-index.png",
+    "title": "Admin Tournaments Index",
+    "path": "./screenshots/admin-tournaments-index.png",
     "route": "/admin/tournaments"
+  },
+  {
+    "filename": "admin-tournaments-create.png",
+    "title": "Admin Tournaments Create",
+    "path": "./screenshots/admin-tournaments-create.png",
+    "route": "/admin/tournaments/create"
+  },
+  {
+    "filename": "admin-transfers-index.png",
+    "title": "Admin Transfers Index",
+    "path": "./screenshots/admin-transfers-index.png",
+    "route": "/admin/transfers"
+  },
+  {
+    "filename": "admin-transfers-create.png",
+    "title": "Admin Transfers Create",
+    "path": "./screenshots/admin-transfers-create.png",
+    "route": "/admin/transfers/create"
+  },
+  {
+    "filename": "admin-users-index.png",
+    "title": "Admin Users Index",
+    "path": "./screenshots/admin-users-index.png",
+    "route": "/admin/usuarios"
+  },
+  {
+    "filename": "admin-users-create.png",
+    "title": "Admin Users Create",
+    "path": "./screenshots/admin-users-create.png",
+    "route": "/admin/usuarios/create"
+  },
+  {
+    "filename": "setup-wizard.png",
+    "title": "Setup Wizard",
+    "path": "./screenshots/setup-wizard.png",
+    "route": "/setup/wizard"
+  },
+  {
+    "filename": "api-documentation.png",
+    "title": "Api Documentation",
+    "path": "./screenshots/api-documentation.png",
+    "route": "/docs"
+  },
+  {
+    "filename": "api-swagger-docs.png",
+    "title": "Api Swagger Docs",
+    "path": "./screenshots/api-swagger-docs.png",
+    "route": "/api/documentation"
   }
 ]
