@@ -1074,7 +1074,7 @@ php artisan validate:post-migration
 
 ## 📄 Licencia
 
-Este proyecto está licenciado bajo la **Licencia MIT**. Ver [LICENSE](LICENSE) para más detalles.
+Este proyecto está licenciado bajo la **Licencia MIT**. Ver [LICENSE](https://opensource.org/licenses/MIT) para más detalles.
 
 ### 🤝 **Uso Permitido**
 
