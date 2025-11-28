@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'KorSolutions Docs',
-  tagline: 'Documentación centralizada de proyectos',
+  tagline: 'Documentación técnica de proyectos desarrollados por Kristian Orozco',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -57,21 +57,7 @@ const config: Config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false, // Blog deshabilitado
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -98,10 +84,14 @@ const config: Config = {
           position: 'left',
           label: 'Proyectos',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/korozcolt',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          href: 'https://www.linkedin.com/in/kristian-orozco-backend/',
+          label: 'LinkedIn',
           position: 'right',
         },
       ],
@@ -138,8 +128,29 @@ const config: Config = {
               href: 'https://github.com/korozcolt',
             },
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/kristian-orozco-backend/',
+            },
+            {
+              label: 'Documentación',
+              to: '/docs/intro',
+            },
+          ],
+        },
+        {
+          title: 'Tecnologías',
+          items: [
+            {
+              label: 'Laravel',
+              href: 'https://laravel.com',
+            },
+            {
+              label: 'React',
+              href: 'https://reactjs.org',
+            },
+            {
+              label: 'Node.js',
+              href: 'https://nodejs.org',
             },
           ],
         },

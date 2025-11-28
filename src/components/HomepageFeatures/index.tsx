@@ -11,32 +11,42 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'SIGMA - Sistema Electoral',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Sistema integral de gestión y análisis electoral desarrollado con Laravel 12,
+        con módulos de gestión de votantes, campañas políticas, call center y análisis en tiempo real.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Sistema PQRSD',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Plataforma de gestión de Peticiones, Quejas, Reclamos, Sugerencias y Denuncias
+        con Laravel 12, incluyendo workflow de tickets, asignación automática y reportes.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'ArchiveMaster',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Sistema de gestión documental empresarial con Laravel, permite organizar,
+        clasificar y gestionar archivos digitales con control de versiones y permisos.
+      </>
+    ),
+  },
+  {
+    title: 'VolleyPass',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        Plataforma de gestión de torneos y equipos de voleibol con Laravel,
+        incluye registro de jugadores, calendario de partidos y estadísticas en vivo.
       </>
     ),
   },
@@ -44,7 +54,7 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({title, Svg, description}: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--6')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>

@@ -2,46 +2,100 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Bienvenido a KorSolutions Docs
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Documentación técnica centralizada de proyectos desarrollados por **Kristian Orozco**.
 
-## Getting Started
+## 👨‍💻 Sobre el Desarrollador
 
-Get started by **creating a new site**.
+Backend Developer especializado en desarrollo de aplicaciones empresariales con **Laravel**, **React** y **Node.js**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- **GitHub:** [@korozcolt](https://github.com/korozcolt)
+- **LinkedIn:** [Kristian Orozco](https://www.linkedin.com/in/kristian-orozco-backend/)
+- **Experiencia:** +10 años en desarrollo de software
+- **Especialización:** Laravel, React, TypeScript, Node.js
 
-### What you'll need
+## 📋 Proyectos Documentados
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Esta plataforma contiene la documentación técnica de los siguientes proyectos:
 
-## Generate a new site
+### 🗳️ [SIGMA - Sistema Electoral](/docs/sigma/intro)
 
-Generate a new Docusaurus site using the **classic template**.
+Sistema integral de gestión y análisis electoral desarrollado con **Laravel 12**.
 
-The classic template will automatically be added to your project after you run the command:
+**Características principales:**
+- Gestión de votantes y campañas políticas
+- Call center integrado para verificación
+- Dashboard de análisis en tiempo real
+- Gestión de coordinadores y líderes
+- Módulo "Día D" para seguimiento electoral
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+[Ver documentación completa →](/docs/sigma/intro)
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+---
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+### 📋 [Sistema PQRSD](/docs/pqr/intro)
 
-## Start your site
+Plataforma de gestión de Peticiones, Quejas, Reclamos, Sugerencias y Denuncias con **Laravel 12**.
 
-Run the development server:
+**Características principales:**
+- Workflow de tickets configurable
+- Asignación automática de casos
+- Reportes y estadísticas
+- Notificaciones por email/SMS
+- Portal ciudadano
 
-```bash
-cd my-website
-npm run start
-```
+[Ver documentación completa →](/docs/pqr/intro)
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+---
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+### 📁 [ArchiveMaster](/docs/archivemaster/intro)
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Sistema de gestión documental empresarial desarrollado con **Laravel**.
+
+**Características principales:**
+- Organización jerárquica de documentos
+- Control de versiones
+- Gestión de permisos por roles
+- Búsqueda avanzada
+- Integración con oficinas y departamentos
+
+[Ver documentación completa →](/docs/archivemaster/intro)
+
+---
+
+### 🏐 [VolleyPass](/docs/volleypass/intro)
+
+Plataforma de gestión de torneos y equipos de voleibol con **Laravel**.
+
+**Características principales:**
+- Registro y gestión de jugadores
+- Calendario de partidos
+- Estadísticas en tiempo real
+- Gestión de equipos y torneos
+- Portal para equipos participantes
+
+[Ver documentación completa →](/docs/volleypass/intro)
+
+---
+
+## 🛠️ Stack Tecnológico
+
+Los proyectos están desarrollados utilizando:
+
+- **Backend:** Laravel 12, PHP 8.2+
+- **Frontend:** React, TypeScript, Tailwind CSS
+- **Base de datos:** MySQL, PostgreSQL
+- **Otros:** Docker, Redis, GitHub Actions
+
+## 📚 Cómo usar esta documentación
+
+Cada proyecto tiene su propia sección con:
+
+- **Introducción:** Descripción general del proyecto
+- **README:** Información del repositorio sincronizada desde GitHub
+- **Manual:** Guía de uso y funcionalidades
+- **Changelog:** Historial de cambios sincronizado desde GitHub
+- **Screenshots:** Capturas de pantalla de la interfaz
+
+Navega por el menú lateral para explorar la documentación de cada proyecto.

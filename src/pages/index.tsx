@@ -17,11 +17,26 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">
+          Backend Developer | Laravel | React | Node.js | TypeScript
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Ver Proyectos
+          </Link>
+          <Link
+            className="button button--outline button--secondary button--lg"
+            href="https://github.com/korozcolt"
+            style={{marginLeft: '10px'}}>
+            GitHub
+          </Link>
+          <Link
+            className="button button--outline button--secondary button--lg"
+            href="https://www.linkedin.com/in/kristian-orozco-backend/"
+            style={{marginLeft: '10px'}}>
+            LinkedIn
           </Link>
         </div>
       </div>
